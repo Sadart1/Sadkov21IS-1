@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="109*"/>
+            <ColumnDefinition Width="691*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="208,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="37"/>
+        <Label Grid.Column="1" Content="Логин" HorizontalAlignment="Left" Margin="159,136,0,0" VerticalAlignment="Top"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="208,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="165" Height="37"/>
+        <Label Grid.Column="1" Content="Пароль" HorizontalAlignment="Left" Margin="159,179,0,0" VerticalAlignment="Top"/>
+        <Button Grid.Column="1" Content="Войти" HorizontalAlignment="Left" Margin="159,238,0,0" VerticalAlignment="Top" Width="214" Height="35"/>
+        <Button Grid.Column="1" Content="Регистрация" HorizontalAlignment="Left" Margin="159,278,0,0" VerticalAlignment="Top" Width="214" Height="35"/>
 
     </Grid>
 </Window>
